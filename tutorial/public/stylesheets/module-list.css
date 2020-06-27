@@ -1,0 +1,43 @@
+html {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
+  color: #222222;
+}
+
+body {
+  color: #222222;
+  line-height: 1.6;
+}
+
+a {
+  color: #0000E9;
+}
+
+a:not([class^="mod-button"]):hover {
+  opacity: 0.7;
+}
+
+a:focus,
+button:focus,
+input[type="submit"]:focus {
+  box-shadow: 0 0 0 2px rgba(7, 71, 192, 0.5);
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  visibility: hidden;
+}
+

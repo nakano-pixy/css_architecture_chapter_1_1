@@ -1,0 +1,54 @@
+html {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
+  color: #222222;
+}
+
+body {
+  color: #222222;
+  line-height: 1.6;
+}
+
+a {
+  color: #0000E9;
+  &:not([class^="mod-button"]) {
+    &:link {
+
+    }
+    &:visited {
+      // color: #420278;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+    &:active {
+      // color: #FB0007;
+    }
+  }
+}
+
+a,
+button,
+input[type="submit"] {
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(7, 71, 192, 0.5);
+    outline: none;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+  // iOSのフィールド内側のシャドウを無くす
+  appearance: none;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  // IE11のフィールドの×ボタンを非表示にする
+  visibility:hidden
+}

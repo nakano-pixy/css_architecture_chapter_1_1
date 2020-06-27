@@ -1,0 +1,24 @@
+//
+// media-queries変数について
+//
+// $g__はグローバル変数であることを表しています。
+//
+
+// 1200px未満
+$g__is-lg: "only screen and (max-width:1199.98px)";
+
+// 992px未満
+$g__is-md: "only screen and (max-width:991.98px)";
+
+// 768px未満
+$g__is-sm: "only screen and (max-width:767.98px)";
+
+// 576px未満
+$g__is-xs: "only screen and (max-width:575.98px)";
+
+// landscapeとportrait
+$g__is-landscape: "only screen and (orientation:landscape)";
+$g__is-portrait: "only screen and (orientation:portrait)";
+
+// 印刷用
+$g__is-print: "print";
